@@ -9,7 +9,7 @@ export const Head: FC = () => {
       <meta charSet='UTF-8' />
       <meta name='viewport' content='width=device-width, initial-scale=1.0' />
       <link rel='icon' href={logoUrl} />
-      <title>Vite + React + Bun</title>
+      <title>Vike + React + Bun</title>
       <meta name='author' content='Oleksandr Pishta' />
       <meta
         name='description'
