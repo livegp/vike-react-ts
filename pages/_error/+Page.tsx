@@ -1,7 +1,7 @@
-import React from "react";
-import { usePageContext } from "vike-react/usePageContext";
+import type { FC } from 'react';
+import { usePageContext } from 'vike-react/usePageContext';
 
-export default function Page() {
+export const Page: FC = () => {
   const { is404 } = usePageContext();
   if (is404) {
     return (
@@ -17,4 +17,4 @@ export default function Page() {
       <p>Something went wrong.</p>
     </>
   );
-}
+};

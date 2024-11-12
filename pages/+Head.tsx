@@ -1,12 +1,21 @@
 // https://vike.dev/Head
 
-import React from "react";
-import logoUrl from "../assets/logo.svg";
+import type { FC } from 'react';
+import logoUrl from '../assets/icons/vike.svg';
 
-export default function HeadDefault() {
+export const Head: FC = () => {
   return (
     <>
-      <link rel="icon" href={logoUrl} />
+      <meta charSet='UTF-8' />
+      <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+      <link rel='icon' href={logoUrl} />
+      <title>Vite + React + Bun</title>
+      <meta name='author' content='Oleksandr Pishta' />
+      <meta
+        name='description'
+        content='Oleksandr Pishta, Full Stack Developer'
+      />
+      <link rel='canonical' href='http://localhost:3000/' />
     </>
   );
-}
+};
