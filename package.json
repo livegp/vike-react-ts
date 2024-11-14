@@ -2,6 +2,7 @@
   "scripts": {
     "dev": "bunx --bun vite",
     "build": "bunx --bun tsc -b && vite build",
+    "docs:build": "cd docs/ && bun run build",
     "preview": "bunx --bun vite preview",
     "format": "biome format --write --unsafe",
     "lint": "biome lint --write --unsafe",
