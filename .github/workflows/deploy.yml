@@ -5,8 +5,8 @@ on:
     # We only run this GitHub action upon new commits to `main`
     branches: ['master']
     # We only run this GitHub action if there are changes in the `docs/` directory
-    # paths:
-    #   - docs/**
+    paths:
+      - docs/**
   workflow_dispatch:
 
 jobs:
